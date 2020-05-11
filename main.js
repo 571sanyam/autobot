@@ -7,7 +7,7 @@ hamburger.addEventListener('click',() =>{
 })
 
 
-var input = document.querySelector('#file-input');
+var input = document.querySelector('#fileToUpload');
 input.addEventListener('change',preview);
 function preview(){
     var fileObject = this.files[0];
