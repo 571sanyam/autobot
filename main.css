@@ -110,7 +110,7 @@ nav{
     flex-direction: column;
 }
 input[type="file"]{
-    z-index: -1;
+    
 }
 label{
     z-index: -1;
