@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Autbots</title>
+</head>
+<body>
+
+    <nav>
+        <img src="main/search.jpeg">
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <ul class="nav-link" id="myDropdown">
+            
+            
+            <input type="text" name="" placeholder="Search here.." id="myInput" onkeyup="filterFunction()">
+                
+            
+            
+            <li><a href="#"><img src="main/IR.jpg">IR sensor</a></li>
+            <li><a href="#"><img src="main/buzzer.jpg">Buzzer</a></li>
+            <li><a href="#"><img src="main/DHT-22.jpg">DHT 22</a></li>
+            <li><a href="#"><img src="main/camera.jpg">Camera</a></li>
+            <li><a href="#"><img src="main/cartidge-fuse.jpg">cartidge-fuse</a></li>
+            <li><a href="#"><img src="main/clip-lead.jpg">clip-lead</a></li>
+            <li><a href="#"><img src="main/potentiometer.jpg">potentiometer</a></li>
+            <li><a href="#"><img src="main/filament.jpg">Filament</a></li>
+            <li><a href="#"><img src="main/Flame sensor.jpg">Flame sensor</a></li>
+            <li><a href="#"><img src="main/induction coil.jpg">induction coil</a></li>
+            <li><a href="#"><img src="main/led.jpg">LED</a></li>
+            <li><a href="#"><img src="main/LPG.jpg">LPG</a></li>
+            <li><a href="#"><img src="main/Memory chip.jpg">Memory chip</a></li>
+            <li><a href="#"><img src="main/moisture.jpg">moisture</a></li>
+            <li><a href="#"><img src="main/MPU.jpg">MPU</a></li>
+            <li><a href="#"><img src="main/Multiplexer.jpg">Multiplexer</a></li>
+            <li><a href="#"><img src="main/pi.jpg">Rasberry pi</a></li>
+            <li><a href="#"><img src="main/pulse.jpg">Pulse generator</a></li>
+            <li><a href="#"><img src="main/relay.jpg">Relay</a></li>
+            <li><a href="#"><img src="main/shunt.jpg">Shunt</a></li>
+            <li><a href="#"><img src="main/stabilizer.jpg">Stabilizer</a></li>
+            <li><a href="#"><img src="main/transistor.jpg">Transistor</a></li>
+            <li><a href="#"><img src="main/ultrasonic.jpg">Ultrasonic</a></li>
+
+
+        </ul>
+    </nav>
+    <div class="main1">
+        
+    <div class="main">
+       
+     <form method="post" enctype="multipart/form-data">
+        <input type="file" name="files[]" id="fileToUpload">
+        <img id="preview">
+        <input type="submit" value="Submit" name="submit">
+        <!-- <button type="submit" value="Upload File" name="submit" class="btn">Upload File</button> -->
+        
+    </form>
+    <p id="result" class="para"></p>
+      <p id="result1" class="para"></p>
+      <p id="result2" class="para"></p>
+      <p id="result3" class="para"></p>
+      </div>  
+      
+    </div>
+
+    <script src="./main.js"></script>
+
+</body>
+</html>
